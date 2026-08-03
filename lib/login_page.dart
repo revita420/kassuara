@@ -187,8 +187,13 @@ class _LoginField extends StatelessWidget {
         fillColor: Colors.white,
         hintText: hintText,
         prefixIcon: Icon(icon, color: Colors.black87),
-        suffixIcon: suffixIcon == null ? null : Icon(suffixIcon, color: Colors.black87),
-        contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+        suffixIcon: suffixIcon == null
+            ? null
+            : Icon(suffixIcon, color: Colors.black87),
+        contentPadding: const EdgeInsets.symmetric(
+          horizontal: 20,
+          vertical: 18,
+        ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(28),
           borderSide: BorderSide.none,
